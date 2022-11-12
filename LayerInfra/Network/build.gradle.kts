@@ -38,5 +38,9 @@ dependencies {
     kapt(deps.hilt.android.compiler)
 
     implementation(deps.coroutines)
+
     implementation(deps.gson)
+    implementation(deps.retrofit.core)
+    implementation(deps.retrofit.converter.gson)
+    implementation(deps.okhttp.logging.interceptor)
 }

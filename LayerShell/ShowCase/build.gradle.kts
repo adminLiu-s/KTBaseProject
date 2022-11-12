@@ -43,4 +43,5 @@ dependencies {
     implementation(deps.material)
     implementation(deps.androidx.constraintlayout)
 
+    implementation(deps.androidx.startup)
 }
